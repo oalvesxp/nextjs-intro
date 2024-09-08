@@ -1,8 +1,12 @@
+import Link from '../src/components/Link'
+
 export default function Faq() {
   return (
     <>
       <h1>FAQ Page</h1>
-      <a href="/">Voltar para a Home</a>
+      <p>
+        Voltar para a <Link href="/">Home</Link>
+      </p>
     </>
   )
 }

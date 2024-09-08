@@ -1,8 +1,12 @@
+import Link from '../src/components/Link'
+
 export default function Home() {
   return (
     <>
       <h1>Home Page</h1>
-      <a href="/faq">Ir para o Faq</a>
+      <p>
+        Ir para o <Link href="/faq">FAQ</Link>
+      </p>
     </>
   )
 }
