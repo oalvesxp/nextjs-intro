@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Link from '../src/components/Link'
 
 /** SSG - Static Site Generation */
@@ -32,6 +33,9 @@ export async function getStaticProps() {
 export default function Faq({ faq }) {
   return (
     <>
+      <Head>
+        <title>FAQ - Alura Cases Campanha</title>
+      </Head>
       <h1>FAQ Page</h1>
       <p>
         Voltar para a <Link href="/">Home</Link>
