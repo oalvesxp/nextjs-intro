@@ -1,5 +1,5 @@
-import Head from 'next/head'
 import Link from '../src/components/Link'
+import PageTitle from '../src/components/PageTitle'
 
 /** SSG - Static Site Generation */
 /** SSR - Server Side Rendering */
@@ -33,9 +33,7 @@ export async function getStaticProps() {
 export default function Faq({ faq }) {
   return (
     <>
-      <Head>
-        <title>FAQ - Alura Cases Campanha</title>
-      </Head>
+      <PageTitle>FAQ - Alura Cases Campanha</PageTitle>
       <h1>FAQ Page</h1>
       <p>
         Voltar para a <Link href="/">Home</Link>

@@ -4,7 +4,7 @@ import GlobalStyle from '../src/theme/GlobalStyle'
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Head></Head>
+      <Head>{/** Inclusão de scripts externos.. como google analytics */}</Head>
       <GlobalStyle />
       <Component {...pageProps} />
     </>
